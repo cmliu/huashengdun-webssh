@@ -154,9 +154,13 @@
       border-radius: 8px;
       font-size: 0.9rem;
       transition: opacity 0.3s ease;
-      display: flex;
+      display: none;
       align-items: center;
       transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    #sshlink.active {
+      display: flex;
     }
 
     .link-text {
